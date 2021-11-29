@@ -1,5 +1,5 @@
 from markupsafe import escape
 
-@app.route("/<name>")
-def hello(name):
-    return f"Hello, {escape(name)}!"
+@app.route("/")
+def hello(home):
+    return f"Hello, {escape(home)}!"
