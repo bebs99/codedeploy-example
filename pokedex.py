@@ -7,7 +7,7 @@ from flask import Flask, render_template, request, redirect, session, flash, url
 #url_for: vai para aonde o redirect indica
 
 app = Flask(__name__)
-app.secret_key = 'flask'
+#app.secret_key = 'flask'
 #chave secreta da sessão
 
 class Pokemon:
