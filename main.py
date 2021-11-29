@@ -35,7 +35,7 @@ def upload_image():
 @app.route('/display/<filename>')
 def display_image(filename):
 	#print('display_image filename: ' + filename)
-	return redirect(url_for('static', filename='uploads/' + filename), code=301)
+	return redirect(url_for('static', filename), code=301)
 
 if __name__ == "__main__":
     app.run()
